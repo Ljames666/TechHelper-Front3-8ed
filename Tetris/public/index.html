@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tetris!</title>
+  <script src="js/index.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="menu-wrap">
+    <input type="checkbox" class="toggler">
+    <div class="hamburger">
+      <div></div>
+    </div>
+    <div class="menu">
+      <div class="menu-content">
+        <h2 class="t-ucase">Regras</h2>
+        <p class="rules"> Use a tecla <b class="key">UP</b> para rotacionar o bloco, <b class="key">LEFT</b>
+          e <b class="key">RIGHT</b> para <br> mover no eixo x do quadro. Pressionando <b class="key">DOWN</b> aumentará
+          a aceleração de queda do bloco.</p>
+        <button class="close fw-400">X</button>
+      </div>
+    </div>
+  </div>
+  <header>
+    <h1 class="fw-300 t-ucase">Bem-vindo <br><span class="fw-400 t-wide t-big t-ucase">ao JamesTetris</span></h1>
+  </header>
+  <main class="game-area">
+    <div class="game">
+      <div class="grid"></div>
+    </div>
+    <section>
+      <div class="display">
+        <h1 class="score fw-400 t-ucase">Pontuação <br> <span class="score-display t-ucase fw-300">0</span></h1>
+        <div class="previous-shape">
+          <div class="previous-grid"></div>
+        </div>
+        <h2 class="lines-display fw-400 t-ucase">linha:<span class="lines-score">0</span></h2>
+      </div>
+      <button class="button t-ucase" href="#">Start / Pause</button>
+      <button class="button2 t-ucase" href="#">Zerar</button>
+      <small class='footer t-ucase'> Stater Web Development Program 8ed - Growdev 2022.<br> Game development for
+        <strong><em>'Ania Kubow'</em></strong> .</small>
+    </section>
+  </main>
+</body>
+
+</html>
