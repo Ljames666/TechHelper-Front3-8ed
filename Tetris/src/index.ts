@@ -192,8 +192,11 @@ document.addEventListener('DOMContentLoaded', () => {
       )
     ) {
       // faz o bloqueio2
-
+      /*
+      achei o erro 
       current.forEach((index) => squares[index + currentPosition].classList.contains('block2'));
+      */
+      current.forEach((index) => squares[index + currentPosition].classList.add('block2')); // <- certo
       // inicia um novo tetrimino
 
       random = nextRandom;
